@@ -1,5 +1,6 @@
 'use strict';
 
+// utilizing the built-in Promise object
 const myPromise = new Promise((resolveFunction, rejectFunction) => {
   setTimeout(() => {
     resolveFunction('Promise Kept');
@@ -13,3 +14,4 @@ myPromise.then((value) => {
 
 console.log('Promise Object ---->', myPromise);
 // expected output: Promise { <pending> }
+
