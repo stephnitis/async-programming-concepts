@@ -1,5 +1,9 @@
 # Asynchronous Programming Concepts
 
+## How to Use
+
+Test the functionality by running `node <filename>` on your local machine
+
 ## About
 
 Asynchronous programming is at the heart of JavaScript and code execution in the browser. It is a technique that enables your program to start a potentially long running task and still be able to be responsive to other events while that task runs.
