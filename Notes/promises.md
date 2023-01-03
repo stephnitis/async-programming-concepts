@@ -27,8 +27,6 @@ Depending on the outcome of the asynchronous operation, promises can be in three
 - A thenable implements the `.then()` method, which is called with two callbacks: one for when the promise is fulfilled, one for when it's rejected
 - **Promises are thenables as well**
 
-- The Javascript ecosystem
-
 ## References
 
 - [Introducing asynchronous JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Introducing)
