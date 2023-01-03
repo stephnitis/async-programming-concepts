@@ -13,3 +13,4 @@ This repository was thus created as a study to have a deeper more full comprehen
 ## Table of Contents
 
 - [Promises](./Notes/promises.md)
+- [EventEmitter](./Notes/eventEmitter.md)
