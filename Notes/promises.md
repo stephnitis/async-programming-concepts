@@ -27,6 +27,20 @@ Depending on the outcome of the asynchronous operation, promises can be in three
 - A thenable implements the `.then()` method, which is called with two callbacks: one for when the promise is fulfilled, one for when it's rejected
 - **Promises are thenables as well**
 
+### `then` Function
+
+- Takes a callback to be invoked on resolve
+- The callback should take one argument, the value returned from the resolver
+
+### `catch` Function
+
+- Takes a callback to be invoked on reject
+- The callback should take on argument, the value returned from the rejector
+
+### `finally` method
+
+- Waits for the promise to settle and for the `then` or `catch` callbacks to run
+
 ## References
 
 - [Introducing asynchronous JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Introducing)
@@ -35,3 +49,4 @@ Depending on the outcome of the asynchronous operation, promises can be in three
 - [Building JavaScript Promises from Scratch](https://itnext.io/broken-promises-a-barely-working-implementation-of-js-promises-ed7f99071f54)
 - [Commentary Building Promises from Scratch](https://medium.com/@jamesernator/actually-this-isnt-how-the-javascript-promise-works-ee87bbcbfd28)
 - [Learn JavaScript Promises by Building a Custom Implementation](https://codefrontend.com/promises/)
+- [Implementing a simple Promise in Javascript](https://medium.com/swlh/implement-a-simple-promise-in-javascript-20c9705f197a)

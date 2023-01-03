@@ -14,4 +14,3 @@ myPromise.then((value) => {
 
 console.log('Promise Object ---->', myPromise);
 // expected output: Promise { <pending> }
-
