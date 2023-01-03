@@ -23,6 +23,10 @@ Depending on the outcome of the asynchronous operation, promises can be in three
 
 ## Thenables
 
+- All Promise-like objects implement the *Thenable* interface
+- A thenable implements the `.then()` method, which is called with two callbacks: one for when the promise is fulfilled, one for when it's rejected
+- **Promises are thenables as well**
+
 - The Javascript ecosystem
 
 ## References
