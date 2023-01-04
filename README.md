@@ -14,3 +14,4 @@ This repository was thus created as a study to have a deeper more full comprehen
 
 - [Promises](./Notes/promises.md)
 - [EventEmitter](./Notes/eventEmitter.md)
+- [Function Currying](./Notes/functionCurrying.md)
