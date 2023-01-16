@@ -3,6 +3,12 @@
 - An advanced technique of working with functions.
 - Takes a function that receives more than one parameter and breaks it into a series of unary (one parameter) functions
 - A curried function only takes one parameter at a time
+- It keeps returning a new function (that expects the current argument, like we said earlier) until all the arguments are exhausted. The arguments are kept "alive" via closure and all are used in execution when the final function in the currying chain is returned and executed
+
+Why is it useful?
+
+- Helps us avoid passing the same variable again and again
+- Helps create a higher order function
 
 Example:
 
