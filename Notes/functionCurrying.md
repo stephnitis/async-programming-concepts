@@ -16,6 +16,13 @@ const buildSandwich = (ingredient1) => {
 }
 
 const mySandwich = buildSandwich('Bacon')('Lettuce')('Tomato')
+
+// refactor:
+
+const buildSammy = ingred1 => ingred2 => ingred3 =>
+  `${ingred1}, ${ingred2}, ${indred3}`;
+
+const mySammy = buildSammy('Turkey')('Cheese')('Bread');
 ```
 
 ## References
